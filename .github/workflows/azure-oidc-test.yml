@@ -17,4 +17,4 @@ jobs:
                 subscription-id: ${{ vars.AZURE_SUB_ID }}
             - run: az group list --output table
 
-            # test
+            # testing
